@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: o;
+}
+
+body {
+    background-image: url("../icons/111.jpg");
+    background-repeat: no-repeat;
+    image-resolution: 1100px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.class1 {
+    background-color: rgba(0, 100, 0, 0.7);
+    text-align: center;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+.class1 ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.class1 ul li {
+    width: 150px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.class1 ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active,
+.class1 ul li:hover {
+    background-color: rgba(21, 192, 235, 0.85);
+}
+
+.class2 {
+    display: none;
+}
+
+.class1 ul li:hover .class2 {
+    display: block;
+    position: absolute;
+    margin: 10px;
+    background-color: rgba(0, 100, 0, 0.7);
+    border-radius: 10px;
+}
+
+.class1 ul li:hover .class2 ul {
+    display: block;
+}
+
+.class1 ul li:hover .class2 ul li {
+    color: #fff;
+}
+
+.class3 {
+    display: none;
+}
+
+.class1 ul li:hover .class2 ul li:hover .class3 {
+    display: block;
+}
+
+.class4 {
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.class4 audio {
+    background-color: rgba(19, 241, 241, 0.85);
+}
